@@ -40,7 +40,10 @@ void draw()
         x = startX + (col * Xspacing);
         y = startY + (row * Yspacing);
         
+        //color c = color(0, 126, 255, 0);
+        
         stroke(#FF3300);
+        //fill(c);
         fill(#FFFFFF);
         ellipse(x,y,49 ,49);
         
