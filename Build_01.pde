@@ -26,5 +26,13 @@ void setup()
 
 void draw()
 {
-  
+    //to not get duplicate effect...
+    background(#ECECEC);
+    
+    for (int i = 0 ; i < numAssets ; i++)
+    {
+        //println(i);
+        
+    }
+    
 }
