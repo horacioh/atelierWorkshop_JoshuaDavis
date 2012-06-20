@@ -32,6 +32,17 @@ void draw()
     for (int i = 0 ; i < numAssets ; i++)
     {
         //println(i);
+        //foor: devuelve el int del valor
+        int row = floor( i/gridCols );
+        //
+        int col = i % gridCols;
+        
+        x = startX + (col * Xspacing);
+        y = startY + (row * Yspacing);
+        
+        stroke(#FF3300);
+        fill(#FFFFFF);
+        ellipse(x,y,49 ,49);
         
     }
     
