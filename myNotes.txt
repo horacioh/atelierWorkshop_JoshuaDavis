@@ -1,0 +1,17 @@
+My Notes // author: Horacio Herrera // 20-06-2012
+
+
+- app rexomendada: SizeUp -> para mover y cambiar el tamano de las ventanas cuando scribes codigo
+
+/////////////////////
+	JOSHUA'S PROCESS - PART I
+/////////////////////
+
+- give yourself a project
+- failing is pretty important
+- DEADLINES!, give yourself a deadline for all of your projects
+- it's all about mutation...nothing really ends with code
+- when I don't have big ideas, I give myself a project!
+- Your boss are going to give you shit to do
+- the studio job should pay you more money, because the work sucks!!
+- check later ( http://www.nopattern.com/ )
