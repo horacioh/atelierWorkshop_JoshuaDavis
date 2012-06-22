@@ -15,3 +15,33 @@ My Notes // author: Horacio Herrera // 20-06-2012
 - Your boss are going to give you shit to do
 - the studio job should pay you more money, because the work sucks!!
 - check later ( http://www.nopattern.com/ )
+
+
+///////////////////
+	PART II - FLASH IS DEAD. OPEN PROCESSING
+///////////////////
+
+- he moved to processing because its better than AS3, and can publish it in HTML5
+- librerias que tiene Joshua instaladas:
+	- controlP5
+	- Minim Audio
+	- modelBuilder
+	- toxiclibs
+
+* workflow to steal color (averaging) :
+	- use de abode app
+	- make your pallete
+	- screenshot
+	- open in PS
+	- make gradients of the same colors
+	- save a gif and select your lovely colors
+	- open the file save it with air app
+MAGIC!!!!!
+
+///////////
+IDEA
+//////////////
+- create a program that detects all numbers on a svgFile and randomizes by a specific random number
+
+
+- doblo el stroke de los vectores y lo duplico de tamano para que el borde no sea tam fuerte...en appearence tab
