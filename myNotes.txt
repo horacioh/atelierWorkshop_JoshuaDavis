@@ -1,4 +1,5 @@
 My Notes // author: Horacio Herrera // 20-06-2012
+<<<<<<< HEAD
 
 
 - app rexomendada: SizeUp -> para mover y cambiar el tamano de las ventanas cuando scribes codigo
@@ -45,3 +46,5 @@ IDEA
 
 
 - doblo el stroke de los vectores y lo duplico de tamano para que el borde no sea tam fuerte...en appearence tab
+=======
+>>>>>>> 7858371791bb6a3976e9c9236aa1177d289b250b
