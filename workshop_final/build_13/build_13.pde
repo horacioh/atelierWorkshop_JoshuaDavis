@@ -13,12 +13,13 @@ boolean record = false;
 
 ArrayList<MyShape> ShapeList;
 
-int numAssets = 144;
-int startX = -300;
-int startY = -350;
-int Xspacing = 50;
-int Yspacing = 50;
+int numAssets = 140;
+int startX = 450;
+int startY = 450;
+int Xspacing = 1;
+int Yspacing = 1;
 int gridCols= 12;
+float o = 1.6180339887498;
 
 color[]palette = {
   #0095a8, #00616f, #333333, #666666, #999999, #CCCCCC
@@ -30,12 +31,19 @@ void setup() {
   background(#ECECEC);
   //smooth();
   
-  img1 = RG.loadShape("art_01.svg");
-  img2 = RG.loadShape("art_02.svg");
-  img3 = RG.loadShape("art_03.svg");
-  img4 = RG.loadShape("art_04.svg");
-  img5 = RG.loadShape("art_05.svg");
-  img6 = RG.loadShape("art_06.svg");
+//  img1 = RG.loadShape("myshape.svg");
+//  img2 = RG.loadShape("art_02.svg");
+//  img3 = RG.loadShape("art_03.svg");
+//  img4 = RG.loadShape("art_04.svg");
+//  img5 = RG.loadShape("art_05.svg");
+//  img6 = RG.loadShape("art_06.svg");
+
+  img1 = RG.loadShape("myshape.svg");
+  img2 = RG.loadShape("myshape.svg");
+  img3 = RG.loadShape("myshape.svg");
+  img4 = RG.loadShape("myshape.svg");
+  img5 = RG.loadShape("myshape.svg");
+  img6 = RG.loadShape("myshape.svg");
   
   imgList = new ArrayList();
   imgList.add(img1);
@@ -52,8 +60,12 @@ void setup() {
     int col = i % gridCols;
 
     // find x and y pos
-    x = startX + (col * Xspacing);
-    y = startY + (row * Yspacing);
+    //x = startX + (col * Xspacing);
+    //y = startY + (row * Yspacing);
+    
+    x = startX + (cos(i*Xspacing) * (i*o));
+    //println(cos(i*x_spacing));
+    y = startY + (sin(i*Yspacing) * (i*o));
     
     ShapeList.add( new MyShape(x, y) );
   }

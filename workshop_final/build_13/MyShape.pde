@@ -3,6 +3,7 @@ class MyShape {
   float _x, _y, _z;
   int ranNum;
   RShape curSVG;
+  float o = 1.6180339887498;
 
   RShape[] _curSVG;
   color[] myStyles;
@@ -35,9 +36,11 @@ class MyShape {
       style.strokeColor = #FF3300;
       //style.stroke = false;
       style.fillColor = myStyles[i];
+      RG.shape(curSVG, _x, _y, 40 + sn(), 40 + sn());
     }
 
-    RG.shape(curSVG, _x + xn(), _y + yn(), 1 + sn(), 1 + sn() );
+    //RG.shape(curSVG, _x + xn(), _y + yn(), 1 + sn(), 1 + sn() );
+    
 
     _z++;
   }
